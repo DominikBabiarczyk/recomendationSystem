@@ -1,0 +1,36 @@
+productRecommendationModel/src/models
+productRecommendationModel/src/model.h5
+productRecommendationModel/src/X.npz
+backend/recommendationSystem/myapp/model_storage/model.h5__pycache__/
+backend/recommendationSystem/env/
+backend/recommendationSystem/env/
+backend/recommendationSystem/myapp/model_storage/model.h5
+# Ignorowanie środowiska wirtualnego
+env/
+recommendationSystem/env/
+
+# Ignorowanie plików cache Pythona
+__pycache__/
+*.pyc
+
+# Ignorowanie bazy danych SQLite
+*.sqlite3
+
+# Ignorowanie konfiguracji IDE
+.idea/
+
+# Ignorowanie plików tymczasowych
+*.log
+*.tmp
+*.bak
+
+# Node.js dependencies
+frontend/node_modules/
+frontend/package-lock.json
+
+# Next.js build files
+frontend/.next/
+
+# Systemowe pliki macOS/Windows (opcjonalnie)
+frontend/.DS_Store
+frontend/Thumbs.db
